@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betta Formulario</title>
+
+    <link rel="stylesheet" href="Betta.css">
+
+</head>
+<body>
+
+    <div id="divImg"><img id="bettaImg" src="BettasPic/betta.gif" alt=""></div>
+
+    <fieldset>
+        <legend>Introducir Datos</legend>
+        <input type="text" placeholder="Betta Macho" id="machoInput">
+        <input type="text" placeholder="Betta Hembra" id="hembraInput">
+        <input type="date" id="fecha">
+        <button id="btnMandar">Mandar Datos</button>
+    </fieldset>
+
+    <fieldset id="tablaField">
+        <legend> Datos ya Introducidos</legend>
+    
+    <div id="myBox">
+    <table id="myTable">
+        <tr>
+            <th>ID</th>
+            <th>Betta Macho</th>
+            <th>Betta Hembra</th>
+            <th>Fecha Cria</th>
+            <th>Dias</th>
+        </tr>
+    </table>
+    </div>
+
+    </fieldset>
+
+    <script src="Betta.js"></script>
+</body>
+</html>

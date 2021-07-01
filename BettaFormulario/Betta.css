@@ -1,0 +1,64 @@
+#divImg{
+    margin-top: 10px;
+    text-align: center;
+}
+#bettaImg{
+    width: 300px;
+    height: 200px;
+}
+#tablaField{
+    margin-top: 30px;
+}
+legend{
+    font-size: 3.5em;
+}
+input{
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+#btnMandar{
+    border-width: 10px;
+    margin-left: 300px;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 30px;
+    background-color: #ff1a1a;
+    color:#ffffff ;
+}
+#btnMandar:hover{
+    background-color: #800000;
+    color:#ffffff 
+}
+
+#myBox{
+    overflow: scroll;
+    width: auto;
+    height: 400px;
+}
+
+
+table{
+	font-family: 'Indie Flower', cursive;
+	border-collapse: collapse;
+	width: 100%;
+}
+th{
+    border: 5px solid black;
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(230, 50, 5);
+    font-size: 32px;
+    color: white;
+  }
+  
+  td{
+    border: 5px solid black;
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+  }
+  
+  tr:nth-child(even){
+      background-color: rgb(89, 92, 94);
+  }
